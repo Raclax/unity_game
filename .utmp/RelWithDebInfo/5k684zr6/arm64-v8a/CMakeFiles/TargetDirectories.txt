@@ -1,0 +1,5 @@
+D:/Projects/UnityProjects/VR-Core-Sample/.utmp/RelWithDebInfo/5k684zr6/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/Projects/UnityProjects/VR-Core-Sample/.utmp/RelWithDebInfo/5k684zr6/arm64-v8a/CMakeFiles/rebuild_cache.dir
+D:/Projects/UnityProjects/VR-Core-Sample/.utmp/RelWithDebInfo/5k684zr6/arm64-v8a/GameActivity/CMakeFiles/game.dir
+D:/Projects/UnityProjects/VR-Core-Sample/.utmp/RelWithDebInfo/5k684zr6/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+D:/Projects/UnityProjects/VR-Core-Sample/.utmp/RelWithDebInfo/5k684zr6/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
