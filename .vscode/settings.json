@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "VR-Core-Sample.sln"
+    "dotnet.defaultSolution": "unity_game.sln"
 }
