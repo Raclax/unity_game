@@ -56,4 +56,15 @@ public class GestionnaireTimer : MonoBehaviour
         // MODIFIÉ : Au lieu de mettre à jour un texte, on écrit dans la console
         Debug.Log("Temps écoulé : " + tempsFormate);
     }
+    // AJOUTEZ CETTE FONCTION à votre GestionnaireTimer
+   // AJOUTEZ CETTE FONCTION à votre GestionnaireTimer
+    public void ArreterTimer()
+    {
+        if (timerEstActif)
+        {
+            timerEstActif = false;
+            Debug.Log("=== TIMER ARRÊTÉ ! Temps final : ===" );
+            LoguerTemps(tempsEcoule);
+        }
+    }
 }
