@@ -8,7 +8,6 @@ public class ChangeurDeScene : MonoBehaviour
         Debug.Log("BOUTON CLIQUÉ !"); // Test simple
         Debug.Log("Tentative de chargement de : " + nomDeLaScene);
         
-        // Test avec le numéro de scène au lieu du nom
-        SceneManager.LoadScene(1); // Charge la scène qui est à l'index 1 dans Build Profiles
+        SceneManager.LoadScene(1);
     }
 }
