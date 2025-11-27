@@ -109,6 +109,41 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: "Platine_unten_pro.Best\xFCckung.003"
     second: {fileID: 2100000, guid: 0aa615c392107084889113683710c30b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stecker.003
+    second: {fileID: 2100000, guid: 41411ee8ef206e549b2e96545fff9b63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steckerseite_pro.003
+    second: {fileID: 2100000, guid: 0ed3d3d16f718434ea58cf55a6b2738b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Unten_pro.001
+    second: {fileID: 2100000, guid: 7bf8da28ca1b71049b9d6da91f2bf0e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Unten_pro.006
+    second: {fileID: 2100000, guid: b6119c0d94a0bc14fa80f4e9a09ef711, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: platine_oben_pro.003
+    second: {fileID: 2100000, guid: 9c2d6406b5c5b4f4c8525626188632fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: platinen_rand.003
+    second: {fileID: 2100000, guid: 62ddaa6af1fc459429148172fcd3ed8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stirnseite_pro.003
+    second: {fileID: 2100000, guid: fb617c37e64faf940ba4df027e1f7f12, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,287 @@ guid: fb4f02ce9c2294c4b9e456b848b03d64
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alu.001
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alu.002
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alu.007
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arm.001
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arm.004
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arm_platine.002
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arm_platine.003
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dichtung.002
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Disk.001
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Disk.004
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flachband.002
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gumi.001
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gumi.004
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IMref4_kopf01.001
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IMref4_kopf01.004
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lot.016
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Magnet_oben.002
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Magnet_oben_unterseite.002
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.019
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.024
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.025
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.067
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.078
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.079
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.080
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.089
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.097
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.098
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.099
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.100
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Motor_schwarz.001
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Motor_schwarz.004
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Parken.001
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plaste.001
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Platine_anschluss2.002
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Platine_lehr.002
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Platine_oben.001
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Platine_oben.004
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Platine_unten.002
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stecker.004
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Steel_Geb\xFCrsted.Dunkel.006"
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Unten_pro.008
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Widerstand_Schrz.002
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Widerstand_braun.001
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Widerstand_braun.003
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Widerstand_braun.008
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Widerstand_sc.002
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aNSCHLUSS_PLATINE_VORN_Platine.001
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mOTOR123_.001
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mOTOR123_.004
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ref4_hinten.004
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ref4_hinten.005
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ref4_hinten.006
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ref4_lehr_vorne.002
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ref4_lehr_vorne.004
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ref4_lehr_vorne.008
+    second: {fileID: 2100000, guid: d6ac346e8c8bd4c4da5b6cc1dda158d6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
