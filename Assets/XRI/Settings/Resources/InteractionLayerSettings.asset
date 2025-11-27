@@ -17,17 +17,17 @@ MonoBehaviour:
   - 
   - DirectOnly
   - 
+  - Socket1
+  - Socket2
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - PowerSupply
+  - HDD
+  - SSD
+  - CPUFan
+  - CPU
+  - GPU
+  - RAM
+  - Motherboard
   - 
   - 
   - 
