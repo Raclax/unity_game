@@ -5,9 +5,6 @@ using UnityEngine;
 
 namespace Unity.VRTemplate
 {
-    /// <summary>
-    /// Controls the steps in the in coaching card.
-    /// </summary>
     public class StepManager : MonoBehaviour
     {
         [Serializable]
@@ -34,34 +31,43 @@ namespace Unity.VRTemplate
 
         [SerializeField]
         public GameObject m_BoutonLancerTimer;
+        
         int m_CurrentStepIndex = 0;
 
+        // --- DÉBUT DE LA MÉTHODE MODIFIÉE ---
         public void Next()
         {
-            if (m_CurrentStepIndex >= m_StepList.Count - 1)
+            // D'abord, on désactive le panneau actuel
+            m_StepList[m_CurrentStepIndex].stepObject.SetActive(false);
+
+            // CAS SPÉCIAL : Si on est sur le 7ème panneau (qui a l'index 6)
+            if (m_CurrentStepIndex == 6)
             {
-                // OUI, C'EST LE DERNIER PAS : on passe au timer !
-                
-                // 1. On cache le dernier pas d'information
-                m_StepList[m_CurrentStepIndex].stepObject.SetActive(false);
-                
-                // 2. On active notre page de timer
-                m_PageTimer.SetActive(true);
-                
-                // 3. L'ÉCHANGE MAGIQUE : on cache le bouton "Continue"
-                m_BoutonContinue.SetActive(false);
-                
-                // 4. ET ON MONTRE le bouton "Lancer le Timer"
-                m_BoutonLancerTimer.SetActive(true);
+                // On remet l'index à 0 pour retourner au premier panneau
+                m_CurrentStepIndex = 0;
             }
+            // Si on est sur le dernier panneau de la liste (et que ce n'est pas le 7ème)
+            else if (m_CurrentStepIndex >= m_StepList.Count - 1)
+            {
+                // On active la page du timer et on gère les boutons de fin
+                m_PageTimer.SetActive(true);
+                m_BoutonContinue.SetActive(false);
+                m_BoutonLancerTimer.SetActive(true);
+
+                // On sort de la fonction ici pour ne pas activer un nouveau panneau
+                return; 
+            }
+            // Pour tous les autres cas (panneaux 1 à 6, et après le 7ème si la liste est plus longue)
             else
             {
-                // NON, CE N'EST PAS ENCORE LA FIN : on continue normalement
-                m_StepList[m_CurrentStepIndex].stepObject.SetActive(false);
+                // On passe simplement au panneau suivant
                 m_CurrentStepIndex++;
-                m_StepList[m_CurrentStepIndex].stepObject.SetActive(true);
-                m_StepButtonTextField.text = m_StepList[m_CurrentStepIndex].buttonText;
             }
+
+            // On active le nouveau panneau (soit le suivant, soit le premier) et on met à jour le texte
+            m_StepList[m_CurrentStepIndex].stepObject.SetActive(true);
+            m_StepButtonTextField.text = m_StepList[m_CurrentStepIndex].buttonText;
         }
+        // --- FIN DE LA MÉTHODE MODIFIÉE ---
     }
 }
