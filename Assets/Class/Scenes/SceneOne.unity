@@ -5969,9 +5969,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 512534080}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 1.187, y: 0.97, z: -1.415}
-  m_LocalScale: {x: 22.526712, y: 22.526712, z: 22.526712}
+  m_LocalRotation: {x: -0.7048277, y: -0.05672718, z: -0.056727175, w: 0.70482767}
+  m_LocalPosition: {x: 1.154, y: 0.97, z: -1.466}
+  m_LocalScale: {x: 29.881685, y: 44.07447, z: 22.526712}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 161428675}
@@ -5980,7 +5980,7 @@ Transform:
   - {fileID: 1513732023}
   - {fileID: 1637864642}
   m_Father: {fileID: 817075156}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -9.203}
 --- !u!54 &512534082
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17494,6 +17494,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Computer
       objectReference: {fileID: 0}
+    - target: {fileID: 1883776852491162882, guid: 6ecb05831db4cca428ad5fe3c6163d5f, type: 3}
+      propertyPath: m_MovementType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6246660441069326065, guid: 6ecb05831db4cca428ad5fe3c6163d5f, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.1
@@ -17512,11 +17516,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6246660441069326065, guid: 6ecb05831db4cca428ad5fe3c6163d5f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.537
+      value: 0.529
       objectReference: {fileID: 0}
     - target: {fileID: 6246660441069326065, guid: 6ecb05831db4cca428ad5fe3c6163d5f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.032
+      value: 1.87
       objectReference: {fileID: 0}
     - target: {fileID: 6246660441069326065, guid: 6ecb05831db4cca428ad5fe3c6163d5f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18720,7 +18724,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -21389,7 +21393,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -23213,6 +23217,14 @@ PrefabInstance:
     - target: {fileID: 4294658286065576380, guid: 3cf29c54c3bd08d41b234fd60fd8bcd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 41.888
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753017938744242309, guid: 3cf29c54c3bd08d41b234fd60fd8bcd8, type: 3}
+      propertyPath: m_Constraints
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753017938744242309, guid: 3cf29c54c3bd08d41b234fd60fd8bcd8, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

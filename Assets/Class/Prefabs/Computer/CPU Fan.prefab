@@ -699,6 +699,7 @@ GameObject:
   - component: {fileID: 2548622291159110765}
   - component: {fileID: 3567758508451713678}
   - component: {fileID: 3761980599765149066}
+  - component: {fileID: 5951078730623692477}
   m_Layer: 0
   m_Name: CPU Fan
   m_TagString: Untagged
@@ -772,7 +773,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 6367575780846682184}
   m_InteractionLayers:
     m_Bits: 1025
   m_DistanceCalculationMode: 1
@@ -886,6 +888,27 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &5951078730623692477
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6499421246108936525}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 99.434135, y: 100.63953, z: 94.386086}
+  m_Center: {x: 14.222007, y: -0.75880146, z: 64.174675}
 --- !u!1 &7028542956574704871
 GameObject:
   m_ObjectHideFlags: 0
