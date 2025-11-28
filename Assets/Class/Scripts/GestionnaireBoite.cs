@@ -10,7 +10,12 @@ public class GestionnaireBoites : MonoBehaviour
     
     // Pour éviter d'arrêter le timer plusieurs fois
     private bool objectifComplete = false;
-    
+
+    void Update()
+    {
+        // On appelle la vérification à chaque frame
+        VerifierSiToutesLesBoitesSontRemplies();
+    }
     public void VerifierSiToutesLesBoitesSontRemplies()
     {
         // Si l'objectif est déjà accompli, on ne fait rien
