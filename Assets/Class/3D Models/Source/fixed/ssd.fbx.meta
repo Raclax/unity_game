@@ -3,7 +3,67 @@ guid: 85a20d13519e2064b94a8e7c19571349
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Allu.001
+    second: {fileID: 2100000, guid: 67624369f7b03f249b686ae4bc275355, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boden_innen.001
+    second: {fileID: 2100000, guid: 67624369f7b03f249b686ae4bc275355, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Deckel_innen.001
+    second: {fileID: 2100000, guid: 67624369f7b03f249b686ae4bc275355, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Innen.001
+    second: {fileID: 2100000, guid: 67624369f7b03f249b686ae4bc275355, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 67624369f7b03f249b686ae4bc275355, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 67624369f7b03f249b686ae4bc275355, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: 67624369f7b03f249b686ae4bc275355, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oben_ohne_text.001
+    second: {fileID: 2100000, guid: 67624369f7b03f249b686ae4bc275355, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oben_pro.003
+    second: {fileID: 2100000, guid: 67624369f7b03f249b686ae4bc275355, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steckerseite_pro.003
+    second: {fileID: 2100000, guid: 67624369f7b03f249b686ae4bc275355, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Unten_pro.001
+    second: {fileID: 2100000, guid: 67624369f7b03f249b686ae4bc275355, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stirnseite_pro.003
+    second: {fileID: 2100000, guid: 67624369f7b03f249b686ae4bc275355, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

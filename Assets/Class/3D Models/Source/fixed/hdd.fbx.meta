@@ -3,7 +3,92 @@ guid: e910077f544440c4db1abbd566b06918
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alu.001
+    second: {fileID: 5955844840416208063, guid: 00c9c177e828a57439e290aef2a23b3f, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alu.002
+    second: {fileID: 5955844840416208063, guid: 00c9c177e828a57439e290aef2a23b3f, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alu.007
+    second: {fileID: 5955844840416208063, guid: 00c9c177e828a57439e290aef2a23b3f, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dichtung.002
+    second: {fileID: 7482458864665612751, guid: 6ba268f48a822b241b0eb00b775034e5, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Disk.001
+    second: {fileID: 7482458864665612751, guid: c6984c48aed9a154294088f4265d8478, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gumi.004
+    second: {fileID: 7390553463975553142, guid: 7ab6f3b0fd1a6ba41b2a47766c16613f, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.078
+    second: {fileID: 7390553463975553142, guid: 7ab6f3b0fd1a6ba41b2a47766c16613f, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.079
+    second: {fileID: 2100000, guid: 2f5e2978552a8e048b99c94c1b5628a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.080
+    second: {fileID: 2100000, guid: 2f5e2978552a8e048b99c94c1b5628a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.089
+    second: {fileID: -876546973899608171, guid: d8d9d48774d0aa446ba9ac703ed6e8e1, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Motor_schwarz.001
+    second: {fileID: 5561349426305759274, guid: 759e8ecdd66ef614b844d0f68de1f901, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ref4_hinten.004
+    second: {fileID: 2100000, guid: f95c205049f12cc4cb5bd57dbded286c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ref4_hinten.005
+    second: {fileID: 2100000, guid: f95c205049f12cc4cb5bd57dbded286c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ref4_hinten.006
+    second: {fileID: 2100000, guid: f95c205049f12cc4cb5bd57dbded286c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ref4_lehr_vorne.002
+    second: {fileID: 2100000, guid: f95c205049f12cc4cb5bd57dbded286c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ref4_lehr_vorne.004
+    second: {fileID: -7723337881936335615, guid: 592bd4ad7fe91f74186da16d3a785dd2, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ref4_lehr_vorne.008
+    second: {fileID: -7723337881936335615, guid: 592bd4ad7fe91f74186da16d3a785dd2, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
