@@ -23040,7 +23040,7 @@ PrefabInstance:
     - target: {fileID: 2498017829448993233, guid: 20dd28e77fd83334ea2dcf2f96bf1009, type: 3}
       propertyPath: m_SelectInput.m_InputActionReferencePerformed
       value: 
-      objectReference: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      objectReference: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     - target: {fileID: 2498017829448993233, guid: 20dd28e77fd83334ea2dcf2f96bf1009, type: 3}
       propertyPath: m_ActivateInput.m_InputActionReferencePerformed
       value: 
